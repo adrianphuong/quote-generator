@@ -1,0 +1,48 @@
+* {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+body {
+    margin-top:15%;
+    text-align:center;
+}
+
+h1 {
+    letter-spacing: -4px;
+    margin-top: 10%;
+    font-size:4em;
+}
+
+p {
+    color:gold;
+    letter-spacing: 1.5px;
+}
+
+.cite {
+    color:gold;
+    font-weight:bold;
+    font-style: italic;
+    text-align:center;
+}
+
+.refresh {
+    margin-top:2%;
+    background-color: white;
+    color:black;
+    border-radius:20px;
+    border:none;
+    padding: auto;
+    font-size: 1.5em;
+    font-weight:bold;
+    padding-left:20px;
+    padding-right:20px;
+    transition: 0.5s;
+}
+
+.refresh:hover {
+    cursor: pointer;
+    transform:translateY(-5px);
+    box-shadow: 0 5px 10px rgb(91, 229, 253);
+    color:rgb(91, 229, 253);
+}
